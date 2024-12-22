@@ -1,6 +1,6 @@
 "VertexlitGeneric"
 {
-	"$basetexture" "Users/hunte/OneDrive/Pictures/ssgss_hair"
+	"$basetexture" "Vegeta(SSGSS)/ssgss_hair"
 	"$bumpmap"  "models/B3SSJ_VGT/phong"
 
 	"$nocull" 1
