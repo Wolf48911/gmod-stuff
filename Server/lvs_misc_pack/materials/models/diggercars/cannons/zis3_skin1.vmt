@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/diggercars/cannons/zis3_skin1"
+	"$bumpmap" "models/diggercars/cannons/zis3_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$phong" "1"
+//	$phongexponent 13
+	"$phongexponenttexture" "models/diggercars/cannons/zis3_spec"
+	"$phongboost"	"0.5"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

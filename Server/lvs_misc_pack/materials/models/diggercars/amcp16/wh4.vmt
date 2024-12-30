@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/DiggerCars/amcp16/wh4"
+	"$bumpmap" "models/DiggerCars/amcp16/wh_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$detail" "models/diggercars/pz4/panzerivg_detail_d"
+	"$detailscale" "10"
+	"$detailblendfactor" "0.5"
+	"$detailblendmode" "0"
+	"$phong" "1" 
+	"$phongboost" "0.08" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+

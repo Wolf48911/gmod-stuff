@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/diggercars/universal_carrier/body"
+	"$bumpmap" "models/diggercars/universal_carrier/body_nm"
+	"$surfaceprop" "Metal"
+	"$alphatest" 1
+	"$phong" "1"
+	"$phongboost" "0.1"
+	"$phongexponenttexture" "models/diggercars/universal_carrier/body_spec"
+	"$phongfresnelranges"	"[ 0.25 0.5 0.9 ]"
+	"$phongalbedotint" "0"
+
+	"$detail" "models/diggercars/pz4/panzerivg_detail_d"
+	"$detailscale" "10"
+	"$detailblendfactor" "2"
+	"$detailblendmode" "0"
+}
+
+
+

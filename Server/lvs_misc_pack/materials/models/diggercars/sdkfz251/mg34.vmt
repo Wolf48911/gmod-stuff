@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/diggercars/pz4/ger_mg34_lmg_d"
+	"$bumpmap" "models/diggercars/pz4/ger_mg34_lmg_n"
+	"$surfaceprop" "Metal"
+	"$nocull" 1
+
+	"$ambientocclusion" "1"
+                "$ambientoccltexture" "models/diggercars/pz4/ger_mg34_lmg_ao"
+	"$phong" "1"
+	"$phongboost" "0.25"
+	"$phongexponent" "3"
+	"$phongfresnelranges"	"[ 0.25 0.5 0.9 ]"
+	"$phongalbedotint" "0"
+
+	"$detail" "models/diggercars/pz4/ger_mg34_lmg_detail"
+	"$detailscale" "1"
+	"$detailblendfactor" "0"
+	"$detailblendmode" "1"
+}
