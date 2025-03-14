@@ -1,8 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture "models/stas_jacovlev/goofycat/decal"
-	$alphatest				1
-	$alphatestreference		0.5
-	$allowalphatocoverage	1
-	$selfillum 1
-}
