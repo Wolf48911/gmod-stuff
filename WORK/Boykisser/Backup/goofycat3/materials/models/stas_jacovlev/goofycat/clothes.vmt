@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/stas_jacovlev/goofycat/clothes"
+
+	$selfillum 1
+}

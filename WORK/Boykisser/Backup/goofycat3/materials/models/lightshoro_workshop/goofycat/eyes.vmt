@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/lightshoro_workshop/goofycat/basis"
+
+	$selfillum 1
+}

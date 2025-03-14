@@ -1,0 +1,74 @@
+// Created by Crowbar 0.74
+====== File Size ======
+	5,284
+====== File Seek Log ======
+	0 - 79 MDL File Header 00 (MDL version: 49); MDL File Header 00 (MDL version: 49)
+	80 - 407 MDL File Header 01; MDL File Header 01
+	408 - 663 MDL File Header 02; MDL File Header 02
+	664 - 1,311 theMdlFileData.theBones 3
+	1,312 - 1,587 theMdlFileData.theAttachments 3
+	1,588 - 1,599 theMdlFileData.theHitboxSets 1
+	1,600 - 1,735 aHitboxSet.theHitboxes 2
+	1,736 - 1,738 theMdlFileData.theBoneTableByName
+	1,739 - 1,739 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	1,740 - 1,839 theMdlFileData.theAnimationDescs 1
+	1,840 - 1,857 anAnimationDesc.anAnimation  [@idle] (frameCount = 2; sectionFrameCount = 2)
+	1,858 - 1,861 anAnimationDesc.anAnimation [@idle] (unused empty data structure at the end of the list)
+	1,862 - 1,863 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	1,864 - 2,075 theMdlFileData.theSequenceDescs 1
+	2,076 - 2,087 aSeqDesc.theBoneWeights [idle] 3
+	2,088 - 2,089 aSeqDesc.theAnimDescIndexes [idle] 1
+	2,090 - 2,091 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	2,092 - 2,123 theMdlFileData.theBodyParts 2
+	2,124 - 2,271 aModel Name = wref.smd
+	2,272 - 2,419 aModel Name = wmaglite.smd
+	2,420 - 3,347 aModel.theMeshes 8
+	3,348 - 3,695 aModel.theMeshes 3
+	3,696 - 4,399 theMdlFileData.theTextures 11
+	4,400 - 4,423 theMdlFileData.theTexturePaths 6
+	4,424 - 4,445 theMdlFileData.theSkinFamilies 1
+	4,446 - 4,447 theMdlFileData.theSkinFamilies alignment [ 00 00 ]
+	4,448 - 4,511 theMdlFileData.theLinearBoneTable header
+	4,512 - 4,523 theMdlFileData.theLinearBoneTable.theFlags
+	4,524 - 4,535 theMdlFileData.theLinearBoneTable.theParents
+	4,536 - 4,571 theMdlFileData.theLinearBoneTable.thePositions
+	4,572 - 4,619 theMdlFileData.theLinearBoneTable.theQuaternions
+	4,620 - 4,655 theMdlFileData.theLinearBoneTable.theRotations
+	4,656 - 4,799 theMdlFileData.theLinearBoneTable.thePoseToBoneDataColumns
+	4,800 - 4,835 theMdlFileData.theLinearBoneTable.thePositionScales
+	4,836 - 4,871 theMdlFileData.theLinearBoneTable.theRotationScales
+	4,872 - 4,919 theMdlFileData.theLinearBoneTable.theQAlignments
+	4,920 - 4,920 aHitbox.theName = ; aSeqDesc.theActivityName = ; aTexturePath = 
+	4,921 - 4,927 theSurfacePropName = weapon; theSurfacePropName = weapon; aBone.theSurfacePropName = weapon; aBone.theSurfacePropName = weapon; aBone.theSurfacePropName = weapon
+	4,928 - 4,938 aBone.theName = ValveBiped
+	4,939 - 4,961 aBone.theName = ValveBiped.weapon_bone
+	4,962 - 4,989 aBone.theName = ValveBiped.weapon_bone_Clip
+	4,990 - 5,000 anAttachment.theName = flashlight
+	5,001 - 5,013 anAttachment.theName = muzzle_flash
+	5,014 - 5,019 anAttachment.theName = shell
+	5,020 - 5,027 aHitboxSet.theName = default
+	5,028 - 5,033 anAnimationDesc.theName = @idle
+	5,034 - 5,038 aSeqDesc.theName = idle
+	5,039 - 5,044 aBodyPart.theName = w_m76
+	5,045 - 5,054 aBodyPart.theName = w_maglite
+	5,055 - 5,063 aTexture.thePathFileName = M76wood1
+	5,064 - 5,077 aTexture.thePathFileName = M76barrel-slr
+	5,078 - 5,087 aTexture.thePathFileName = M76mag-20
+	5,088 - 5,096 aTexture.thePathFileName = M76Rifle
+	5,097 - 5,104 aTexture.thePathFileName = M76Rail
+	5,105 - 5,113 aTexture.thePathFileName = M76Scope
+	5,114 - 5,122 aTexture.thePathFileName = M76Upper
+	5,123 - 5,134 aTexture.thePathFileName = M76Receiver
+	5,135 - 5,144 aTexture.thePathFileName = aks_tac_d
+	5,145 - 5,147 aTexture.thePathFileName = uv
+	5,148 - 5,152 aTexture.thePathFileName = ak47
+	5,153 - 5,189 aTexturePath = models\weapons\v_models\zastava.m76\
+	5,190 - 5,225 aTexturePath = models\weapons\v_models\flashlight\
+	5,226 - 5,256 aTexturePath = models\v_models\weapons\akmsu\
+	5,257 - 5,271 aTexturePath = 
+
+$hboxset \
+	5,272 - 5,281 aTexturePath = default"\
+	5,282 - 5,283 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	5,284 - 5,284 END OF FILE + 1 (File size)
+========================

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/stas_jacovlev/goofycat/Outline"
+
+	$selfillum 1
+}

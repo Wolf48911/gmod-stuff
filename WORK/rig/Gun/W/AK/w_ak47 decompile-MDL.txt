@@ -1,0 +1,122 @@
+// Created by Crowbar 0.74
+====== File Size ======
+	6,408
+====== File Seek Log ======
+	0 - 79 MDL File Header 00 (MDL version: 48); MDL File Header 00 (MDL version: 48)
+	80 - 407 MDL File Header 01; MDL File Header 01
+	408 - 663 MDL File Header 02; MDL File Header 02
+	664 - 1,311 theMdlFileData.theBones 3
+	1,312 - 1,495 theMdlFileData.theAttachments 2
+	1,496 - 1,507 theMdlFileData.theHitboxSets 1
+	1,508 - 1,643 aHitboxSet.theHitboxes 2
+	1,644 - 1,646 theMdlFileData.theBoneTableByName
+	1,647 - 1,647 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	1,648 - 2,447 theMdlFileData.theAnimationDescs 8
+	2,448 - 2,465 anAnimationDesc.anAnimation  [@vm_idle] (frameCount = 4; sectionFrameCount = 4)
+	2,466 - 2,469 anAnimationDesc.anAnimation [@vm_idle] (unused empty data structure at the end of the list)
+	2,470 - 2,479 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 ]
+	2,480 - 2,497 anAnimationDesc.anAnimation  [@vm_reload] (frameCount = 4; sectionFrameCount = 4)
+	2,498 - 2,501 anAnimationDesc.anAnimation [@vm_reload] (unused empty data structure at the end of the list)
+	2,502 - 2,511 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 ]
+	2,512 - 2,529 anAnimationDesc.anAnimation  [@vm_draw] (frameCount = 4; sectionFrameCount = 4)
+	2,530 - 2,533 anAnimationDesc.anAnimation [@vm_draw] (unused empty data structure at the end of the list)
+	2,534 - 2,543 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 ]
+	2,544 - 2,561 anAnimationDesc.anAnimation  [@idle] (frameCount = 4; sectionFrameCount = 4)
+	2,562 - 2,565 anAnimationDesc.anAnimation [@idle] (unused empty data structure at the end of the list)
+	2,566 - 2,575 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 ]
+	2,576 - 2,593 anAnimationDesc.anAnimation  [@reload] (frameCount = 4; sectionFrameCount = 4)
+	2,594 - 2,597 anAnimationDesc.anAnimation [@reload] (unused empty data structure at the end of the list)
+	2,598 - 2,607 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 ]
+	2,608 - 2,625 anAnimationDesc.anAnimation  [@draw] (frameCount = 4; sectionFrameCount = 4)
+	2,626 - 2,629 anAnimationDesc.anAnimation [@draw] (unused empty data structure at the end of the list)
+	2,630 - 2,639 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 ]
+	2,640 - 2,657 anAnimationDesc.anAnimation  [@attack1] (frameCount = 21; sectionFrameCount = 21)
+	2,658 - 2,673 anAnimationDesc.anAnimation  [@attack1] (frameCount = 21; sectionFrameCount = 21)
+	2,674 - 2,683 anAnimation.thePosV.theAnimXValues (accumulatedTotal = 21)
+	2,684 - 2,693 anAnimation.thePosV.theAnimZValues (accumulatedTotal = 21)
+	2,694 - 2,697 anAnimationDesc.anAnimation [@attack1] (unused empty data structure at the end of the list)
+	2,698 - 2,703 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 ]
+	2,704 - 2,721 anAnimationDesc.anAnimation  [@attack2] (frameCount = 21; sectionFrameCount = 21)
+	2,722 - 2,737 anAnimationDesc.anAnimation  [@attack2] (frameCount = 21; sectionFrameCount = 21)
+	2,738 - 2,747 anAnimation.thePosV.theAnimXValues (accumulatedTotal = 21)
+	2,748 - 2,757 anAnimation.thePosV.theAnimZValues (accumulatedTotal = 21)
+	2,758 - 2,761 anAnimationDesc.anAnimation [@attack2] (unused empty data structure at the end of the list)
+	2,762 - 2,763 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	2,764 - 4,459 theMdlFileData.theSequenceDescs 8
+	4,460 - 4,471 aSeqDesc.theBoneWeights [vm_idle] 3; aSeqDesc.theBoneWeights [vm_reload] 3; aSeqDesc.theBoneWeights [vm_draw] 3; aSeqDesc.theBoneWeights [idle] 3; aSeqDesc.theBoneWeights [reload] 3; aSeqDesc.theBoneWeights [draw] 3; aSeqDesc.theBoneWeights [attack1] 3; aSeqDesc.theBoneWeights [attack2] 3
+	4,472 - 4,473 aSeqDesc.theAnimDescIndexes [vm_idle] 1
+	4,474 - 4,475 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	4,476 - 4,477 aSeqDesc.theAnimDescIndexes [vm_reload] 1
+	4,478 - 4,479 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	4,480 - 4,481 aSeqDesc.theAnimDescIndexes [vm_draw] 1
+	4,482 - 4,483 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	4,484 - 4,485 aSeqDesc.theAnimDescIndexes [idle] 1
+	4,486 - 4,487 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	4,488 - 4,489 aSeqDesc.theAnimDescIndexes [reload] 1
+	4,490 - 4,491 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	4,492 - 4,493 aSeqDesc.theAnimDescIndexes [draw] 1
+	4,494 - 4,495 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	4,496 - 4,655 aSeqDesc.theEvents [attack1] 2
+	4,656 - 4,657 aSeqDesc.theAnimDescIndexes [attack1] 1
+	4,658 - 4,659 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	4,660 - 4,819 aSeqDesc.theEvents [attack2] 2
+	4,820 - 4,821 aSeqDesc.theAnimDescIndexes [attack2] 1
+	4,822 - 4,823 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	4,824 - 4,839 theMdlFileData.theBodyParts 1
+	4,840 - 4,987 aModel Name = ak47.smd
+	4,988 - 5,335 aModel.theMeshes 3
+	5,336 - 5,527 theMdlFileData.theTextures 3
+	5,528 - 5,531 theMdlFileData.theTexturePaths 1
+	5,532 - 5,537 theMdlFileData.theSkinFamilies 1
+	5,538 - 5,539 theMdlFileData.theSkinFamilies alignment [ 00 00 ]
+	5,540 - 5,603 theMdlFileData.theLinearBoneTable header
+	5,604 - 5,615 theMdlFileData.theLinearBoneTable.theFlags
+	5,616 - 5,627 theMdlFileData.theLinearBoneTable.theParents
+	5,628 - 5,663 theMdlFileData.theLinearBoneTable.thePositions
+	5,664 - 5,711 theMdlFileData.theLinearBoneTable.theQuaternions
+	5,712 - 5,747 theMdlFileData.theLinearBoneTable.theRotations
+	5,748 - 5,891 theMdlFileData.theLinearBoneTable.thePoseToBoneDataColumns
+	5,892 - 5,927 theMdlFileData.theLinearBoneTable.thePositionScales
+	5,928 - 5,963 theMdlFileData.theLinearBoneTable.theRotationScales
+	5,964 - 6,011 theMdlFileData.theLinearBoneTable.theQAlignments
+	6,012 - 6,012 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	6,013 - 6,045 theMdlFileData.theNameCopy = weapons\tacint_extras\w_ak47.mdl; theMdlFileData.theNameCopy = weapons\tacint_extras\w_ak47.mdl
+	6,046 - 6,052 theSurfacePropName = weapon; theSurfacePropName = weapon; aBone.theSurfacePropName = weapon; aBone.theSurfacePropName = weapon; aBone.theSurfacePropName = weapon
+	6,053 - 6,076 aBone.theName = ValveBiped.Bip01_R_Hand
+	6,077 - 6,082 aBone.theName = Box01
+	6,083 - 6,092 aBone.theName = ak47_bolt
+	6,093 - 6,105 anAttachment.theName = muzzle_flash
+	6,106 - 6,110 anAttachment.theName = bolt
+	6,111 - 6,118 aHitboxSet.theName = default
+	6,119 - 6,127 anAnimationDesc.theName = @vm_idle
+	6,128 - 6,138 anAnimationDesc.theName = @vm_reload
+	6,139 - 6,147 anAnimationDesc.theName = @vm_draw
+	6,148 - 6,153 anAnimationDesc.theName = @idle
+	6,154 - 6,161 anAnimationDesc.theName = @reload
+	6,162 - 6,167 anAnimationDesc.theName = @draw
+	6,168 - 6,176 anAnimationDesc.theName = @attack1
+	6,177 - 6,185 anAnimationDesc.theName = @attack2
+	6,186 - 6,193 aSeqDesc.theName = vm_idle
+	6,194 - 6,205 aSeqDesc.theActivityName = ACT_VM_IDLE
+	6,206 - 6,215 aSeqDesc.theName = vm_reload
+	6,216 - 6,229 aSeqDesc.theActivityName = ACT_VM_RELOAD
+	6,230 - 6,237 aSeqDesc.theName = vm_draw
+	6,238 - 6,249 aSeqDesc.theActivityName = ACT_VM_DRAW
+	6,250 - 6,254 aSeqDesc.theName = idle
+	6,255 - 6,263 aSeqDesc.theActivityName = ACT_IDLE
+	6,264 - 6,270 aSeqDesc.theName = reload
+	6,271 - 6,281 aSeqDesc.theActivityName = ACT_RELOAD
+	6,282 - 6,286 aSeqDesc.theName = draw
+	6,287 - 6,295 aSeqDesc.theActivityName = ACT_DRAW
+	6,296 - 6,303 aSeqDesc.theName = attack1
+	6,304 - 6,321 aSeqDesc.theActivityName = ACT_RANGE_ATTACK1
+	6,322 - 6,329 aSeqDesc.theName = attack2
+	6,330 - 6,347 aSeqDesc.theActivityName = ACT_RANGE_ATTACK2
+	6,348 - 6,354 aBodyPart.theName = studio
+	6,355 - 6,363 aTexture.thePathFileName = Magazine
+	6,364 - 6,372 aTexture.thePathFileName = Receiver
+	6,373 - 6,378 aTexture.thePathFileName = Upper
+	6,379 - 6,405 aTexturePath = models\tacint_extras\ak47\
+	6,406 - 6,407 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	6,408 - 6,408 END OF FILE + 1 (File size)
+========================

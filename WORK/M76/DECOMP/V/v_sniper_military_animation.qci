@@ -1,0 +1,35 @@
+
+
+$sequence "idle" {
+	"v_sniper_military_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	node "Ready"
+	fps 30
+	loop
+}
+
+
+
+$sequence "fire_raw" {
+	"v_sniper_military_anims\fire_raw.smd"
+	fadein 0.2
+	fadeout 0.2
+	node "Bang"
+	fps 60
+}
+
+
+
+$sequence "reload" {
+	"v_sniper_military_anims\reload.smd"
+	activity "ACT_VM_RELOAD" 1
+	{ event 5004 0 "tacint_GenericRifle.Jingle" }
+	{ event 5004 12 "tacint_extras_ak47.Remove_Clip" }
+	{ event 5004 43 "tacint_extras_ak47.Insert_Clip" }
+	{ event 5004 74 "tacint_extras_ak47.BoltAction" }
+	fadein 0.1
+	fadeout 0.2
+	node "Rld"
+	fps 25
+}

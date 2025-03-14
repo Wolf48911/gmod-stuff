@@ -1,0 +1,53 @@
+
+// Clipping box or view bounding box.
+$cbox 0 0 0 0 0 0
+
+// Bounding box or hull. Used for collision with a world object.
+$bbox -7.764 -21.657 -3.761 7.938 21.542 70.333
+
+// Hitbox info. Used for damage-based collision.
+// The hitbox info below was automatically generated when compiled because no hitbox info was provided.
+// $hboxset "default"
+// $hbox 0 "ValveBiped.Bip01_Pelvis" -8.301253 -3.71015 -7.200645 6.671885 4.927652 4.887455
+// $hbox 0 "ValveBiped.Bip01_Spine" -0.18357 -6.232365 -6.950795 7.097944 7.49024 7.007305
+// $hbox 0 "ValveBiped.Bip01_Spine1" -3.112859 -5.13236 -6.950796 5.410244 7.731946 7.007305
+// $hbox 0 "ValveBiped.Bip01_Spine2" -9.704097 -12.208762 -7.393919 10.530303 7.935748 7.631252
+// $hbox 0 "ValveBiped.Bip01_Spine4" -7.18651 -6.011494 -7.393919 4.6141 8.838537 7.631252
+// $hbox 0 "ValveBiped.Bip01_Neck1" -1.068037 -3.814049 -2.069398 2.970268 0.771213 1.914505
+// $hbox 0 "ValveBiped.Bip01_Head1" -5.931426 -10.385641 -4.793365 7.620682 4.233808 4.483337
+// $hbox 0 "ValveBiped.Bip01_L_Clavicle" 0 -9.827437 -6.628636 8.745471 2.424305 5.725645
+// $hbox 0 "ValveBiped.Bip01_L_UpperArm" 0 -1.910998 -2.548759 11.314517 2.875445 1.536073
+// $hbox 0 "ValveBiped.Bip01_L_Forearm" 0 -1.755556 -2.395042 12.117558 2.393726 1.480154
+// $hbox 0 "ValveBiped.Bip01_L_Hand" 0 -1.712467 -1.911926 4.119084 1.185416 1.839422
+// $hbox 0 "ValveBiped.Bip01_R_Clavicle" -0.361516 -6.657884 -5.998979 8.269464 2.774058 7.890168
+// $hbox 0 "ValveBiped.Bip01_R_UpperArm" 0 -1.91092 -1.536098 11.314544 2.875537 2.548725
+// $hbox 0 "ValveBiped.Bip01_R_Forearm" 0 -1.755409 -1.480181 11.208305 2.393791 2.395015
+// $hbox 0 "ValveBiped.Bip01_R_Hand" 0 -1.712444 -1.788318 4.213656 1.187151 1.909832
+// $hbox 0 "ValveBiped.Bip01_L_Thigh" 0 -4.202985 -3.837986 17.213732 5.181213 3.243091
+// $hbox 0 "ValveBiped.Bip01_L_Calf" 0 -4.196017 -2.721144 17.709562 3.809621 3.618529
+// $hbox 0 "ValveBiped.Bip01_L_Foot" -0.966071 -1.472082 -1.828606 6.203996 4.824397 2.889568
+// $hbox 0 "ValveBiped.Bip01_R_Thigh" 0 -4.202977 -3.243076 17.213732 5.18122 3.791671
+// $hbox 0 "ValveBiped.Bip01_R_Calf" 0 -4.195203 -3.593478 17.709555 3.601254 2.608966
+// $hbox 0 "ValveBiped.Bip01_R_Foot" -0.970325 -1.470126 -2.912509 6.203988 4.820985 1.80606
+// $hbox 0 "ValveBiped.Bip01_L_Finger0" -0.370807 -0.246598 -0.869463 1.525688 1.037213 0.79146
+// $hbox 0 "ValveBiped.Bip01_L_Bicep" -0.011525 -0.726559 -2.414441 2.660663 2.295551 0
+// $hbox 0 "ValveBiped.Bip01_L_Shoulder" -1.958995 -2.28771 -2.932805 4.16307 2.604532 1.021597
+// $hbox 0 "ValveBiped.Bip01_L_Elbow" -1.1045 0 -2.23977 1.787105 2.055484 0
+// $hbox 0 "ValveBiped.Bip01_R_Finger0" 0 -0.039543 -0.74614 1.563283 1.152971 0.806009
+// $hbox 0 "ValveBiped.Bip01_R_Wrist" 0 -1.100298 -0.866251 1.093614 1.051908 0.827526
+// $hbox 0 "ValveBiped.Bip01_R_Elbow" -1.104407 0 0 1.787144 2.055601 2.239738
+// $hbox 0 "ValveBiped.Bip01_R_Shoulder" -2.005151 -2.295028 -1.021625 4.163144 1.91094 2.352509
+// $hbox 0 "ValveBiped.Bip01_R_Bicep" -0.011493 -0.726426 0 2.660672 2.295696 2.4144
+// $hbox 0 "ValveBiped.Bip01_L_Latt" -1.153679 -4.16224 0 3.177787 0.305567 1.498702
+// $hbox 0 "ValveBiped.Bip01_R_Latt" -1.101214 -4.895199 -1.472039 3.205375 0.309599 0.945469
+// $hbox 0 "ValveBiped.Bip01_R_Pectoral" -0.903198 -1.792601 -3.78853 4.653824 1.116311 0
+// $hbox 0 "ValveBiped.Bip01_L_Pectoral" -0.903206 -1.792575 0 4.653824 1.11632 3.788539
+// $hbox 0 "ValveBiped.Bip01_L_Toe0" 0 -1.161426 -1.682247 2.861525 1.344598 2.947981
+// $hbox 0 "ValveBiped.Bip01_R_Toe0" 0 -1.129695 -2.829338 2.851729 1.593181 1.7833
+// $hbox 0 "ValveBiped.Bip01_L_Finger4" -0.388172 -0.758676 -0.513415 1.454058 0.356968 0.564051
+// $hbox 0 "ValveBiped.Bip01_L_Finger3" -0.236987 -0.61218 -0.585968 1.839318 0.436617 0.669826
+// $hbox 0 "ValveBiped.Bip01_L_Finger2" 0 -0.557013 -0.549807 2.231284 0.532262 0.472935
+// $hbox 0 "ValveBiped.Bip01_L_Finger01" -1.015363 -0.366099 -0.871289 1.199273 1.000402 0.791646
+// $hbox 0 "ValveBiped.Bip01_R_Finger3" -0.159803 -0.468766 -0.785204 1.856764 0.564487 0.547019
+// $hbox 0 "ValveBiped.Bip01_R_Finger2" -0.059375 -0.562435 -0.757695 2.22275 0.670028 0.580039
+// $hbox 0 "ValveBiped.Bip01_R_Finger01" -1.019157 -0.192237 -0.74635 1.411683 1.114916 0.808033

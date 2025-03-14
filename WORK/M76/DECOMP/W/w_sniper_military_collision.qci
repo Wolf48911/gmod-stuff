@@ -1,0 +1,10 @@
+
+$collisionmodel "w_sniper_military_physics.smd"
+{
+	$mass 15
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+
+}

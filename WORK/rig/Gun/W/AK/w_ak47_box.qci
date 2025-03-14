@@ -1,0 +1,12 @@
+
+// Clipping box or view bounding box.
+$cbox 0 0 0 0 0 0
+
+// Bounding box or hull. Used for collision with a world object.
+$bbox -14.616 -2.418 -6.08 33.398 1.049 8.812
+
+// Hitbox info. Used for damage-based collision.
+// The hitbox info below was automatically generated when compiled because no hitbox info was provided.
+// $hboxset "default"
+// $hbox 0 "ValveBiped.Bip01_R_Hand" -8.185625 -2.035553 -6.483311 30.011782 0.942139 4.962467
+// $hbox 0 "ak47_bolt" 0 -1.40334 -0.485958 10.522746 0.659708 2.197341

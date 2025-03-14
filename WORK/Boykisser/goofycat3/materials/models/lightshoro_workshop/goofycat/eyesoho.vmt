@@ -1,0 +1,14 @@
+UnlitGeneric
+{
+	$basetexture "models/lightshoro_workshop/goofycat/eyeshypnosis"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar "$basetexture"
+			animatedTextureFrameNumVar "$frame"
+			animatedTextureFrameRate 6
+		}
+	}
+}
