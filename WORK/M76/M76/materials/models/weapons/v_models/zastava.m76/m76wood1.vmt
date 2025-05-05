@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\weapons\v_models\zastava.m76\M76wood1"
-	"$bumpmap" "models\weapons\v_models\zastava.m76\M76wood1_norm"
-	"$envmap" "env_cubemap"
-	"$normalmapalphaenvmapmask" 1
-}

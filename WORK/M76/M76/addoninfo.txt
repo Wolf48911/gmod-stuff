@@ -1,8 +1,0 @@
-"AddonInfo"
-{
-    addonSteamAppID        550
-    addontitle             "Zastava M76 (Sounds)"
-    addonversion           1.0
-    addonauthor            "Doktor Haus"
-    addonDescription       "Designated Marksman Rifle based off the Kalashnikov frame with a lengthened frame and barrel."
-}
