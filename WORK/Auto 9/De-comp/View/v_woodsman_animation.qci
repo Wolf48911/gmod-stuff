@@ -1,0 +1,468 @@
+
+$SectionFrames 30 35
+
+$Sequence "range_attack" {
+	"v_woodsman_anims\range_attack.smd"
+	activity "ACT_RANGE_ATTACK1" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 12
+}
+
+$Sequence "range_attack2" {
+	"v_woodsman_anims\range_attack2.smd"
+	activity "ACT_RANGE_ATTACK2" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 12
+}
+
+$Sequence "idle" {
+	"v_woodsman_anims\idle.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 12
+}
+
+$Sequence "waveover" {
+	"v_woodsman_anims\waveover.smd"
+	activity "ACT_VM_WAVEOVER" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 40
+}
+
+$Sequence "waveover2" {
+	"v_woodsman_anims\waveover2.smd"
+	activity "ACT_VM_WAVEOVER2" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 40
+}
+
+$Sequence "halt" {
+	"v_woodsman_anims\halt.smd"
+	activity "ACT_VM_HALT" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$Sequence "halt2" {
+	"v_woodsman_anims\halt2.smd"
+	activity "ACT_VM_HALT2" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$Sequence "reload" {
+	"v_woodsman_anims\reload.smd"
+	activity "ACT_VM_RELOAD" 1
+	{ event 5004 6 "tacint_woodsman.Clip_Out" }
+	{ event 5004 22 "tacint_woodsman.Clip_In" }
+	{ event 5004 50 "tacint_woodsman.Slide_Action" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+
+$Sequence "midreload" {
+	"v_woodsman_anims\midreload.smd"
+	activity "ACT_VM_MIDRELOAD" 1
+	{ event 5004 0 "tacint_woodsman.Clip_In-Mid" }
+	{ event 5004 18 "tacint_woodsman.Slide_Action" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+
+$Sequence "draw" {
+	"v_woodsman_anims\draw.smd"
+	activity "ACT_VM_DRAW" 1
+	{ event 5004 11 "tacint_woodsman.Slide_Action" }
+	fadein 0.2
+	fadeout 0.2
+	fps 70
+}
+
+$Sequence "dryfire" {
+	"v_woodsman_anims\dryfire.smd"
+	activity "ACT_VM_DRYFIRE" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 33
+}
+
+$Sequence "lastshot" {
+	"v_woodsman_anims\lastshot.smd"
+	activity "ACT_VM_LASTSHOT" 1
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 21
+}
+
+$Sequence "holster" {
+	"v_woodsman_anims\holster.smd"
+	activity "ACT_VM_HOLSTER" 1
+	{ event 5004 1 "tacint_GenericPistol.holster" }
+	fadein 0.2
+	fadeout 0.2
+	fps 33
+}
+
+$Sequence "unholster" {
+	"v_woodsman_anims\unholster.smd"
+	activity "ACT_VM_UNHOLSTER" 1
+	{ event 5004 1 "tacint_GenericPistol.unholster" }
+	fadein 0.2
+	fadeout 0.2
+	fps 60
+}
+
+$Sequence "prime_grenade" {
+	"v_woodsman_anims\prime_grenade.smd"
+	activity "ACT_VM_PRIME_GRENADE" 1
+	{ event 5004 7 "Grenade.PullPin" }
+	fadein 0.2
+	fadeout 0.2
+	fps 48
+}
+
+$Sequence "throw_grenade" {
+	"v_woodsman_anims\throw_grenade.smd"
+	activity "ACT_VM_THROW_GRENADE" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 41
+}
+
+$Sequence "throw_grenade_underhand" {
+	"v_woodsman_anims\throw_grenade_underhand.smd"
+	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 41
+}
+
+$Sequence "melee1" {
+	"v_woodsman_anims\melee1.smd"
+	activity "ACT_VM_SECONDARYATTACK" 1
+	{ event 5004 2 "Weapon.Swing" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+
+$Sequence "melee2" {
+	"v_woodsman_anims\melee2.smd"
+	activity "ACT_VM_SECONDARYATTACK2" 1
+	{ event 5004 2 "Weapon.Swing" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+
+$Sequence "shoot1" {
+	"v_woodsman_anims\shoot1.smd"
+	activity "ACT_VM_PRIMARYATTACK_1" 1
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.5
+	snap
+	fps 25
+}
+
+$Sequence "shoot2" {
+	"v_woodsman_anims\shoot2.smd"
+	activity "ACT_VM_PRIMARYATTACK_2" 1
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.5
+	snap
+	fps 25
+}
+
+$Sequence "shoot3" {
+	"v_woodsman_anims\shoot3.smd"
+	activity "ACT_VM_PRIMARYATTACK_3" 1
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.5
+	snap
+	fps 25
+}
+
+$Sequence "sshoot1" {
+	"v_woodsman_anims\sshoot1.smd"
+	activity "ACT_VM_SILENCEDATTACK_1" 1
+	{ event 9021 0 "TI_Silenced" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "sshoot2" {
+	"v_woodsman_anims\sshoot2.smd"
+	activity "ACT_VM_SILENCEDATTACK_2" 1
+	{ event 9021 0 "TI_Silenced" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "sshoot3" {
+	"v_woodsman_anims\sshoot3.smd"
+	activity "ACT_VM_SILENCEDATTACK_3" 1
+	{ event 9021 0 "TI_Silenced" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "sh_idle" {
+	"v_woodsman_anims\sh_idle.smd"
+	activity "ACT_VM_SINGLEHAND_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 12
+}
+
+$Sequence "sh_reload" {
+	"v_woodsman_anims\sh_reload.smd"
+	activity "ACT_VM_SINGLEHAND_RELOAD" 1
+	{ event 5004 6 "tacint_woodsman.Clip_Out" }
+	{ event 5004 22 "tacint_woodsman.Clip_In" }
+	{ event 5004 50 "tacint_woodsman.Slide_Action" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+
+$Sequence "sh_midreload" {
+	"v_woodsman_anims\sh_midreload.smd"
+	activity "ACT_VM_SINGLEHAND_MIDRELOAD" 1
+	{ event 5004 0 "tacint_woodsman.Clip_In-Mid" }
+	{ event 5004 18 "tacint_woodsman.Slide_Action" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+
+$Sequence "sh_draw" {
+	"v_woodsman_anims\sh_draw.smd"
+	activity "ACT_VM_SINGLEHAND_DRAW" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+
+$Sequence "sh_dryfire" {
+	"v_woodsman_anims\sh_dryfire.smd"
+	activity "ACT_VM_SINGLEHAND_DRYFIRE" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 33
+}
+
+$Sequence "sh_lastshot" {
+	"v_woodsman_anims\sh_lastshot.smd"
+	activity "ACT_VM_SINGLEHAND_LASTSHOT" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 21
+}
+
+$Sequence "sh_holster" {
+	"v_woodsman_anims\sh_holster.smd"
+	activity "ACT_VM_SINGLEHAND_HOLSTER" 1
+	{ event 5004 1 "tacint_GenericPistol.holster" }
+	fadein 0.2
+	fadeout 0.2
+	fps 33
+}
+
+$Sequence "sh_unholster" {
+	"v_woodsman_anims\sh_unholster.smd"
+	activity "ACT_VM_SINGLEHAND_UNHOLSTER" 1
+	{ event 5004 1 "tacint_GenericPistol.unholster" }
+	fadein 0.2
+	fadeout 0.2
+	fps 60
+}
+
+$Sequence "sh_shoot1" {
+	"v_woodsman_anims\sh_shoot1.smd"
+	activity "ACT_VM_SINGLEHAND_PRIMARYATTACK_1" 1
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "sh_shoot2" {
+	"v_woodsman_anims\sh_shoot2.smd"
+	activity "ACT_VM_SINGLEHAND_PRIMARYATTACK_2" 1
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 24
+}
+
+$Sequence "sh_shoot3" {
+	"v_woodsman_anims\sh_shoot3.smd"
+	activity "ACT_VM_SINGLEHAND_PRIMARYATTACK_3" 1
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 23
+}
+
+$Sequence "sh_sshoot1" {
+	"v_woodsman_anims\sh_sshoot1.smd"
+	activity "ACT_VM_SINGLEHAND_SILENCEDATTACK_1" 1
+	{ event 9021 0 "TI_Silenced" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "sh_sshoot2" {
+	"v_woodsman_anims\sh_sshoot2.smd"
+	activity "ACT_VM_SINGLEHAND_SILENCEDATTACK_2" 1
+	{ event 9021 0 "TI_Silenced" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 24
+}
+
+$Sequence "sh_sshoot3" {
+	"v_woodsman_anims\sh_sshoot3.smd"
+	activity "ACT_VM_SINGLEHAND_SILENCEDATTACK_3" 1
+	{ event 9021 0 "TI_Silenced" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 23
+}
+
+$Sequence "blind_idle" {
+	"v_woodsman_anims\blind_idle.smd"
+	activity "ACT_VM_IDLE_BLIND" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 12
+}
+
+$Sequence "blind_shoot_lastshot" {
+	"v_woodsman_anims\blind_shoot_lastshot.smd"
+	activity "ACT_VM_BLIND_LASTSHOT" 1
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "blind_shoot1" {
+	"v_woodsman_anims\blind_shoot1.smd"
+	activity "ACT_VM_BLINDATTACK_1" 1
+	{ event 9051 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "blind_shoot2" {
+	"v_woodsman_anims\blind_shoot2.smd"
+	activity "ACT_VM_BLINDATTACK_1" 1
+	{ event 9051 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "blind_shoot3" {
+	"v_woodsman_anims\blind_shoot3.smd"
+	activity "ACT_VM_BLINDATTACK_1" 1
+	{ event 9051 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "blind_sshoot1" {
+	"v_woodsman_anims\blind_sshoot1.smd"
+	activity "ACT_VM_BLINDSILENCEDATTACK_1" 1
+	{ event 9021 0 "TI_Silenced" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "blind_sshoot2" {
+	"v_woodsman_anims\blind_sshoot2.smd"
+	activity "ACT_VM_BLINDSILENCEDATTACK_1" 1
+	{ event 9021 0 "TI_Silenced" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "blind_sshoot3" {
+	"v_woodsman_anims\blind_sshoot3.smd"
+	activity "ACT_VM_BLINDSILENCEDATTACK_1" 1
+	{ event 9021 0 "TI_Silenced" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
+}
+
+$Sequence "blind_dryfire" {
+	"v_woodsman_anims\blind_dryfire.smd"
+	activity "ACT_VM_BLIND_DRYFIRE" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 35
+}

@@ -1,0 +1,10 @@
+
+$collisionmodel "c_dmi_auto9_enforcer_physics.smd"
+{
+	$mass 10
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone "Box01"
+
+}

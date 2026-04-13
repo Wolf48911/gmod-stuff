@@ -1,0 +1,68 @@
+
+$Sequence "vm_idle" {
+	"w_glock18_anims\vm_idle.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$Sequence "vm_reload" {
+	"w_glock18_anims\vm_reload.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$Sequence "vm_draw" {
+	"w_glock18_anims\vm_draw.smd"
+	activity "ACT_VM_DRAW" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$Sequence "idle" {
+	"w_glock18_anims\idle.smd"
+	activity "ACT_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$Sequence "reload" {
+	"w_glock18_anims\reload.smd"
+	activity "ACT_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$Sequence "draw" {
+	"w_glock18_anims\draw.smd"
+	activity "ACT_DRAW" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$Sequence "attack1" {
+	"w_glock18_anims\attack1.smd"
+	activity "ACT_RANGE_ATTACK1" 1
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6010 0 "0" }
+	fadein 0.2
+	fadeout 0.2
+	fps 13
+}
+
+$Sequence "attack2" {
+	"w_glock18_anims\attack2.smd"
+	activity "ACT_RANGE_ATTACK2" 1
+	{ event 9001 0 "TI_Silenced" }
+	{ event 6010 0 "0" }
+	fadein 0.2
+	fadeout 0.2
+	fps 13
+}
